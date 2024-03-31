@@ -1,3 +1,6 @@
 rootProject.name = 'identity'
 
 include('identity')
+include('snowflake')
+include('sample')
+

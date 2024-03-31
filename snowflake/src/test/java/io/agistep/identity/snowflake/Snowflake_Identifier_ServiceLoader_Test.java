@@ -10,7 +10,7 @@ class Snowflake_Identifier_ServiceLoader_Test {
     @Test
     void load() {
 
-        IdentifierProvider identifierProvider = IdentifierProviderFactory.load(SnowflakeIdentifierProviderFactory.class.getName()).get();
+        IdentifierProvider identifierProvider = IdentifierProviderFactory.load().get();
 
         System.out.println(identifierProvider.nextId());
 
